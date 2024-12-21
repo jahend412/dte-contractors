@@ -1,0 +1,18 @@
+/* App.css */
+
+/* Ensure the body and html don't cause horizontal overflow */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+  
+  /* Make sure the app takes up full height of the viewport */
+  .App {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
