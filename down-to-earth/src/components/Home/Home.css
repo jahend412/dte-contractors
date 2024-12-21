@@ -61,3 +61,41 @@
     }
   }
   
+  /* Home About section */
+  .home-about {
+    display: flex;
+    justify-content: space-between; /* Space out the two sections */
+    align-items: flex-start; /* Align items to the top */
+    gap: 20px; /* Space between columns */
+    padding: 40px;
+    background-color: #f4f4f4; /* Light background color */
+  }
+  
+  .home-about-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ca1b1b;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .home-about-text {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+    text-align: justify; /* Justify text for better readability */
+  }
+  
+  .home-about-left, .home-about-right {
+    flex: 1; /* Make both columns take equal width */
+    max-width: 48%; /* Ensure columns are evenly spaced */
+  }
+  
+  .home-about-left {
+    padding-right: 20px;
+  }
+  
+  .home-about-right {
+    padding-left: 20px;
+  }
+  
