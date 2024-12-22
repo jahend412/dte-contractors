@@ -96,32 +96,3 @@ Add a customer testimonials section.
 Company: Down to Earth Contractors
 Phone: 262-248-2725
 Address: N1971 Highway H, Lake Geneva, WI 53147
-
-````
-
-
-## File Structure
-
-
-```plaintext
-src/
-├── components/
-│   ├── Navbar.jsx
-│   ├── Contact.jsx
-│   ├── ServicePages/
-│   │   ├── Excavation.jsx
-│   │   ├── Grading.jsx
-│   │   ├── SepticSystems.jsx
-│   │   ├── SewerLaterals.jsx
-│   │   ├── WaterLaterals.jsx
-│   │   ├── Demolition.jsx
-├── utils/
-│   ├── emailService.js
-├── styles/
-│   ├── Navbar.css
-│   ├── Contact.css
-│   ├── Services.css
-├── App.js
-├── index.js
-
-````
