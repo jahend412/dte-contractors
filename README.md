@@ -1,7 +1,3 @@
-# dte-contractors
-
-Website for Down To Earth Contractors in Lake Geneva, Wisconsin
-
 # Down to Earth Contractors Website Documentation
 
 ## Overview
