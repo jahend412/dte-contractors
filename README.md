@@ -36,10 +36,6 @@ The Down to Earth Contractors website is designed to provide potential clients w
    - Fully responsive CSS for optimal viewing on desktop, tablet, and mobile.
    - Custom CSS for dropdown menus, contact forms, and service pages.
 
-## Installation and Setup
-
-### Clone the Repository
-
 ## Key Components
 
 ### Navbar
@@ -77,7 +73,8 @@ Description: Contains the sendEmail function to handle EmailJS integration.
 Error Handling:
 Logs errors to the console.
 Throws errors for display in the Contact component.
-##Deployment
+
+## Deployment
 
 ### Build the Project
 
