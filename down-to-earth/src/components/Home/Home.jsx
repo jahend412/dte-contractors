@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Card from '../Card/Card';
 import './Home.css';
 
 export default function Home() {
@@ -9,6 +10,37 @@ export default function Home() {
     const handleClick = () => {
         setImageIndex((prevIndex) => (prevIndex === 0 ? 1 : 0)); // Toggle between 0 and 1
     };
+
+
+
+    const services = [
+        {
+            title: "Sewer and Water Laterals",
+            image: "/sewer.jpg",
+            link: "/sewer",
+        },
+        {
+            title: "Septic Systems",
+            image: "/septic.jpg",
+            link: "/septic",
+        },
+        {
+            title: "Excavation",
+            image: "/excavation.jpg",
+            link: "/excavation",
+        },
+        {
+            title: "Grading",
+            image: "/grading.jpg",
+            link: "/grading",
+        },
+        {
+            title: "Demolition and Tear Downs",
+            image: "/demolition.jpg",
+            link: "/demolition",
+        },
+       
+    ]
 
     return (
         <>
@@ -44,6 +76,22 @@ export default function Home() {
       <li>Timely and Efficient Service: Completing projects on schedule and within budget without compromising on quality.</li>
     </ul>
   </div>
+</div>
+<div className='home-services-title'>
+<h1>Services</h1>
+</div>
+
+
+<div className="home-services">
+
+    {services.map((service, index) => (
+        <Card 
+        key={index} 
+        title={service.title} 
+        image={service.image} 
+        link={service.link} 
+        />
+    ))}
 </div>
 
         </>
