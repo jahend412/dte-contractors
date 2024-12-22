@@ -12,6 +12,7 @@ import SewerLaterals from './components/Services/SewerLaterals';
 import WaterLaterals from './components/Services/WaterLaterals';
 import Demolition from './components/Services/Demolition';
 import Services from './components/Services/Services';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path='/services/sewer' element={<SewerLaterals />} />
         <Route path='/services/water' element={<WaterLaterals />} />
         <Route path='/services/demolition' element={<Demolition />} />
+        <Route path='/contact' element={<Contact />} />
       </Routes>
       <Footer />
     </Router>
