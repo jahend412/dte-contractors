@@ -1,0 +1,49 @@
+
+/* General reset and layout for the About page */
+.about-container {
+    display: flex;
+    flex-direction: column; /* For mobile-first, we'll stack the image and text */
+    min-height: 100vh; /* Make sure it takes up full viewport height */
+  }
+  
+  .about-text {
+    flex: 1; /* Allow text container to take up available space */
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+    
+  }
+  
+  .about-text h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    color: #ca1b1b;
+    text-align: center;
+  }
+  
+  .about-text p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+    font-weight: 600;
+  }
+  
+ .about-image {
+    flex: 1; /* Allow image container to take up available space */
+    background-size: cover;
+    background-position: center;
+    text-align: center; /* Center the image */
+  }
+  
+  footer {
+    margin-top: auto; /* Push the footer to the bottom */
+    background-color: #333; /* Add a background color to footer */
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
