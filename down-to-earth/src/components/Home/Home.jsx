@@ -15,29 +15,34 @@ export default function Home() {
 
     const services = [
         {
-            title: "Sewer and Water Laterals",
+            title: "Sewer Laterals",
             image: "/sewer.jpg",
-            link: "/sewer",
+            link: "/services/sewer",
+        },
+        {
+            title: "Water Laterals",
+            image: "/water.jpg",
+            link: "/services/water",
         },
         {
             title: "Septic Systems",
             image: "/septic.jpg",
-            link: "/septic",
+            link: "/services/septic",
         },
         {
             title: "Excavation",
             image: "/excavation.jpg",
-            link: "/excavation",
+            link: "/services/excavation",
         },
         {
             title: "Grading",
             image: "/grading.jpg",
-            link: "/grading",
+            link: "/services/grading",
         },
         {
             title: "Demolition and Tear Downs",
             image: "/demolition.jpg",
-            link: "/demolition",
+            link: "/services/demolition",
         },
        
     ]
